@@ -1,0 +1,5 @@
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
+num3 = (pow((num1),2))
+num4 = (pow((num2),2))
+print(num3.__float__() + num4.__float__())
